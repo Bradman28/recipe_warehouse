@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cca16939-ea06-4f5d-9ee9-1a9502165879" name="student_serve" url="http://cis222.new.jjcstudentwebs.net/bsu_fl23/">
+        <fileTransfer host="new.jjcstudentwebs.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

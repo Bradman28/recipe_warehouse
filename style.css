@@ -1,0 +1,146 @@
+/* Main HTML page*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #111f22;
+    font-family: Arial, Tahoma, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#wrapper {
+    background-color: white;
+    padding: 0;
+}
+
+.header {
+    color: #111f22;
+    background-color: rgb(111, 141, 167);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    text-align:center;
+    color: rgb(0, 0, 0)
+
+}
+
+.header-ul {
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+li { 
+    margin: 0 10px;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+.text {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+img {
+    padding: 20px;
+}
+
+.recipe-img {
+    height: auto;
+    width: 600px;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+}
+
+.homepic {
+    height: auto;
+    width: 800px;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+}
+
+.thumbs {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #111f22;
+    width: 500px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: rgb(111, 141, 167);
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
+    margin-top: auto;
+}
+
+/* Recipe pages */
+ul,
+ol {
+    list-style-position: inside;
+    text-align:left;
+}
+
+.shape {
+    border: 3px solid #7d7d87;
+    width: 100%;
+    max-width: 600px;
+    padding: o 1em;
+    margin :0 auto;
+}
