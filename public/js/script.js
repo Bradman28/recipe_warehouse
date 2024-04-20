@@ -5,7 +5,7 @@ function registerForm () {
     let password = document.getElementById("password").value;
 
     if (name && email && username && password) {
-        window.location.href = "confirmation.html";
+        window.location.href = "confirmation.php";
     } else {
         alert("Please fill in all fields before submitting.")
     }

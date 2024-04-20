@@ -4,24 +4,24 @@
 <head>
     <meta charset="utf-8">
     <title>Recipe Warehouse</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <div id="wrapper">
         <header class="header">
-            <h1><a href="../index.html">Recipe Warehouse</a></h1>
+            <h1><a href="../index.php">Recipe Warehouse</a></h1>
             <ul class="header-ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../italian.html">Italian</a></li>
-                <li><a href="../mexican.html">Mexican</a></li>
-                <li><a href="../american.html">American</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../italian.php">Italian</a></li>
+                <li><a href="../mexican.php">Mexican</a></li>
+                <li><a href="../american.php">American</a></li>
             </ul>
         </header>
         <nav>
             <ul>
-                <li><a href="../recipes/tacos.html">Tacos</a></li>
-                <li><a href="../recipes/enchiladas.html">Enchiladas</a></li>
-                <li><a href="../recipes/mexican_potatoes.html">Mexican Potatoes</a></li>
+                <li><a href="tacos.php">Tacos</a></li>
+                <li><a href="enchiladas.php">Enchiladas</a></li>
+                <li><a href="mexican_potatoes.php">Mexican Potatoes</a></li>
             </ul>
         </nav>
         <hr>
@@ -31,7 +31,7 @@
                 This is a fast, easy, and healthy recipe that I could eat once a week. I use mainly use ground chicken, but you could easily use ground turkey or beef. I like Nuevo Leon thin flour tortillas, but you can use this recipe with flour or corn tortillas. This is great on tostados and in enchiladas as well. Can also be used with nachos!
             </p>
         </div>
-        <img class="recipe-img" src="../images/tacos.jpeg">
+        <img class="recipe-img" src="../../images/tacos.jpeg">
         <br>
     <div class="shape">
         <h3>Ingredients</h3>

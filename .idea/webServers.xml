@@ -9,6 +9,9 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="97df63d7-95af-41d0-8359-3d5908a112b3" name="recipe_warehouse" url="http://localhost">
+        <fileTransfer mountedRoot="$PROJECT_DIR$/public" accessType="MOUNT" port="0" />
+      </webServer>
     </option>
   </component>
 </project>

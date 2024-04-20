@@ -4,24 +4,23 @@
 <head>
     <meta charset="utf-8">
     <title>Recipe Warehouse</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div id="wrapper">
         <header class="header">
-            <h1><a href="index.html">Recipe Warehouse</a></h1>
+            <h1><a href="index.php">Recipe Warehouse</a></h1>
             <ul class="header-ul">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="italian.html">Italian</a></li>
-                <li><a href="mexican.html">Mexican</a></li>
-                <li><a href="american.html">American</a></li>
+                <li><a href="italian.php">Italian</a></li>
+                <li><a href="mexican.php">Mexican</a></li>
+                <li><a href="american.php">American</a></li>
             </ul>
         </header>
         <nav>
             <ul>
-                <li><a href="recipes/bolognese.html">Bolognese</a></li>
-                <li><a href="recipes/fettucini_alfredo.html">Fettucini Alfredo</a></li>
-                <li><a href="recipes/marinara.html">Marinara</a></li>
+                <li><a href="recipes/bolognese.php">Bolognese</a></li>
+                <li><a href="recipes/fettucini_alfredo.php">Fettucini Alfredo</a></li>
+                <li><a href="recipes/marinara.php">Marinara</a></li>
             </ul>
         </nav>
         <hr>
@@ -32,9 +31,9 @@
             </p>
         </div>
         <div class="thumbs">
-            <img src="./images/bolognese1.jpeg">
-            <img src="./images/marinara.jpeg">
-            <img src="./images/parsley.jpeg">
+            <img src="../images/bolognese1.jpeg">
+            <img src="../images/marinara.jpeg">
+            <img src="../images/parsley.jpeg">
         </div>
         <footer>
             Copyright &copy; 2023 Recipe Warehouse<br><a href="mailto:bsurin13@stu.jjc.edu">bsurin13@stu.jjc.edu</a>

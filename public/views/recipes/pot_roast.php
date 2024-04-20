@@ -4,24 +4,24 @@
 <head>
     <meta charset="utf-8">
     <title>Recipe Warehouse</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <div id="wrapper">
         <header class="header">
-            <h1><a href="../index.html">Recipe Warehouse</a></h1>
+            <h1><a href="../index.php">Recipe Warehouse</a></h1>
             <ul class="header-ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../italian.html">Italian</a></li>
-                <li><a href="../mexican.html">Mexican</a></li>
-                <li><a href="../american.html">American</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../italian.php">Italian</a></li>
+                <li><a href="../mexican.php">Mexican</a></li>
+                <li><a href="../american.php">American</a></li>
             </ul>
         </header>
         <nav>
             <ul>
-                <li><a href="../recipes/pot_roast.html">Pot Roast</a></li>
-                <li><a href="../recipes/cream_biscuit.html">Cream Biscuits</a></li>
-                <li><a href="../recipes/leek_soup.html">Leek and Potato Soup</a></li>
+                <li><a href="pot_roast.php">Pot Roast</a></li>
+                <li><a href="cream_biscuit.php">Cream Biscuits</a></li>
+                <li><a href="leek_soup.php">Leek and Potato Soup</a></li>
             </ul>
         </nav>
         <hr>
@@ -31,7 +31,7 @@
                 Pot roast is the ultimate winter time set it and forget it meal. This recipe will be sure to kick it up a notch for you and your family.
             </p>
         </div>
-        <img class="recipe-img" src="../images/roast.jpeg">
+        <img class="recipe-img" src="../../images/roast.jpeg">
         <br>
     <div class="shape">
         <h3>Ingredients</h3>

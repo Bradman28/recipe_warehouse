@@ -4,26 +4,12 @@
 <head>
     <meta charset="utf-8">
     <title>Recipe Warehouse</title>
-    <script type="text/javascript" src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div id="wrapper">
-        <header class="header">
-            <h1><a href="index.html">Recipe Warehouse</a></h1>
-            <ul class="header-ul">
-                <li><a href="italian.html">Italian</a></li>
-                <li><a href="mexican.html">Mexican</a></li>
-                <li><a href="american.html">American</a></li>
-            </ul>
-        </header>
-        <!-- <nav>
-            <ul>
-                <li><a href="italian.html">Italian</a></li>
-                <li><a href="mexican.html">Mexican</a></li>
-                <li><a href="american.html">American</a></li>
-            </ul>
-        </nav> -->
+        <?php include './layouts/header_main.php'; ?>
         <div class="text">
             <h2>Welcome to the last recipe website you will ever need!</h2>
             <p>
@@ -34,17 +20,16 @@
             </p>
         </div>
         <div>
-            <img class="homepic" src="images/kitchen.jpeg"><br><br><br><br>
+            <img class="homepic" src="../images/kitchen.jpeg"><br><br><br><br>
         </div>
         <h4>Be sure to join our mailing list to receive updates on all the newest recipes added!</h4>
         <div class="form">
-            <form action="form_handler.php" method="post">
-                <input type="text" id="name" name="name" placeholder="Name">
-                <input type="text" id="email" name="email" placeholder="Email">
+            <form action="../../controllers/form_handler.php" method="post">
                 <input type="text" id="username" name="username" placeholder="Username">
                 <input type="password" id="password" name="password" placeholder="Password">
+                <input type="text" id="email" name="email" placeholder="Email">
 
-                <button type="button" onclick="registerForm()">Register</button>
+                <button type="submit">Register</button>
             </form>    
         </div>
         <br><br>

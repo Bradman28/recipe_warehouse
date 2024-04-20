@@ -4,24 +4,24 @@
 <head>
     <meta charset="utf-8">
     <title>Recipe Warehouse</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <div id="wrapper">
         <header class="header">
-            <h1><a href="../index.html">Recipe Warehouse</a></h1>
+            <h1><a href="../index.php">Recipe Warehouse</a></h1>
             <ul class="header-ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../italian.html">Italian</a></li>
-                <li><a href="../mexican.html">Mexican</a></li>
-                <li><a href="../american.html">American</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../italian.php">Italian</a></li>
+                <li><a href="../mexican.php">Mexican</a></li>
+                <li><a href="../american.php">American</a></li>
             </ul>
         </header>
         <nav>
             <ul>
-                <li><a href="../recipes/tacos.html">Tacos</a></li>
-                <li><a href="../recipes/enchiladas.html">Enchiladas</a></li>
-                <li><a href="../recipes/mexican_potatoes.html">Mexican Potatoes</a></li>
+                <li><a href="tacos.php">Tacos</a></li>
+                <li><a href="enchiladas.php">Enchiladas</a></li>
+                <li><a href="mexican_potatoes.php">Mexican Potatoes</a></li>
             </ul>
         </nav>
         <hr>
@@ -32,8 +32,8 @@
             </p>
         </div>
         <div class="thumbs">
-            <img class="recipe-img" src="../images/enchiladas1.jpeg">
-            <img class="recipe-img" src="../images/enchiladas2.jpeg">    
+            <img class="recipe-img" src="../../images/enchiladas1.jpeg">
+            <img class="recipe-img" src="../../images/enchiladas2.jpeg">
         </div>
         <br>
     <div class="shape">

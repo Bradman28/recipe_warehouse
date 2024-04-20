@@ -4,24 +4,24 @@
 <head>
     <meta charset="utf-8">
     <title>Recipe Warehouse</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <div id="wrapper">
         <header class="header">
-            <h1><a href="../index.html">Recipe Warehouse</a></h1>
+            <h1><a href="../index.php">Recipe Warehouse</a></h1>
             <ul class="header-ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../italian.html">Italian</a></li>
-                <li><a href="../mexican.html">Mexican</a></li>
-                <li><a href="../american.html">American</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../italian.php">Italian</a></li>
+                <li><a href="../mexican.php">Mexican</a></li>
+                <li><a href="../american.php">American</a></li>
             </ul>
         </header>
         <nav>
             <ul>
-                <li><a href="../recipes/bolognese.html">Bolognese</a></li>
-                <li><a href="../recipes/fettucini_alfredo.html">Fettucini Alfredo</a></li>
-                <li><a href="../recipes/marinara.html">Marinara</a></li>
+                <li><a href="bolognese.php">Bolognese</a></li>
+                <li><a href="fettucini_alfredo.php">Fettucini Alfredo</a></li>
+                <li><a href="marinara.php">Marinara</a></li>
             </ul>
         </nav>
         <hr>
@@ -34,7 +34,7 @@
                 I originally found this recipe online, and over the years have adjusted it to my liking. I find the cooking method is most important.
             </p>
         </div>
-        <img class="recipe-img" src="../images/bolognese2.jpeg">
+        <img class="recipe-img" src="../../images/bolognese2.jpeg">
         <br>
     <div class="shape">
         <h3>Ingredients</h3>
