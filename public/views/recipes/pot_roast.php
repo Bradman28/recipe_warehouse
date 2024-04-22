@@ -8,15 +8,8 @@
 </head>
 <body>
     <div id="wrapper">
-        <header class="header">
-            <h1><a href="../index.php">Recipe Warehouse</a></h1>
-            <ul class="header-ul">
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="../italian.php">Italian</a></li>
-                <li><a href="../mexican.php">Mexican</a></li>
-                <li><a href="../american.php">American</a></li>
-            </ul>
-        </header>
+        <!-- header -->
+        <?php include '../layouts/header_recipe.php'; ?>
         <nav>
             <ul>
                 <li><a href="pot_roast.php">Pot Roast</a></li>
@@ -65,9 +58,8 @@
     </ol>
 
     </div>
-        <footer>
-            Copyright &copy; 2023 Recipe Warehouse<br><a href="mailto:bsurin13@stu.jjc.edu">bsurin13@stu.jjc.edu</a>
-        </footer>
+        <!-- footer -->
+        <?php include '../layouts/footer.php'; ?>
     </div>
 </body>
 </html>

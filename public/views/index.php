@@ -9,7 +9,8 @@
 </head>
 <body>
     <div id="wrapper">
-        <?php include './layouts/header_main.php'; ?>
+        <!-- header -->
+        <?php include 'layouts/header_main.php'; ?>
         <div class="text">
             <h2>Welcome to the last recipe website you will ever need!</h2>
             <p>
@@ -33,9 +34,8 @@
             </form>    
         </div>
         <br><br>
-        <footer>
-            Copyright &copy; 2023 Recipe Warehouse<br><a href="mailto:bsurin13@stu.jjc.edu">bsurin13@stu.jjc.edu</a>
-        </footer>
+        <!-- footer -->
+        <?php include 'layouts/footer.php'; ?>
     </div>
 </body>
 </html>
