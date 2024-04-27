@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="recipe_warehouse">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/recipe_warehouse/public" local="$PROJECT_DIR$/public" web="http://localhost/recipe_warehouse/public" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

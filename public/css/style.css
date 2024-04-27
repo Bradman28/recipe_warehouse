@@ -24,7 +24,7 @@ body {
     padding-bottom: 5px;
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
 }
 
 h1 {
@@ -36,7 +36,18 @@ h1 {
 .header-ul {
     list-style: none;
     display: flex;
-    padding-top: 10px;
+    padding:0;
+    margin: 0;
+    align-items: center;
+}
+
+.header-ul li {
+    margin-right: 10px;
+}
+
+.header-ul li a:hover {
+    color: white;
+    /*box-shadow: inset 120px 0 0 0 gray;*/
 }
 
 nav ul {
@@ -48,8 +59,7 @@ nav ul {
     text-decoration: none;
 }
 
-
-li { 
+li {
     margin: 0 10px;
     font-size: larger;
 }
@@ -58,6 +68,23 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.btn-login-pop {
+    height: 60px;
+    width: 90px;
+    padding: 0 10px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: large;
+    cursor: pointer;
+    outline: none;
+}
+
+/*.btn-login-pop a:hover {*/
+/*    background: rgb(111, 141, 167);*/
+/*    color: white;*/
+/*}*/
 
 h3 {
     text-align: center;
@@ -105,20 +132,68 @@ img {
 }
 
 .form {
+    display: none; /* Initially hidden */
+    position: fixed; /* Positioning for centering */
+    align-content: start ;
+    top: 50%;
+    left: 50%;
     margin: 10px;
     padding: 15px;
     border: 2px solid #111f22;
-    width: 500px;
+    height: 400px;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.90);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    color: #888;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.icon ion-icon {
+    font-size: 20px;
 }
 
 label {
-    font-weight: bold;
+    display: block;
+    padding-left: 5px;
 }
 
 input {
     display: block;
-    width: 300px;
+    width: 200px;
     margin-bottom: 12px;
+}
+
+.reg-form {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.error-message {
+    color: red;
+    font-size: smaller;
 }
 
 footer {
