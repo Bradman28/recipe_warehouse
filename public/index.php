@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
     session_start();
     require_once "../controllers/login_handler.php";
     if (isset($_SESSION['email'])) {
@@ -8,6 +9,10 @@
     }
 ?>
 
+=======
+session_start();
+?>
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +25,7 @@
     <div id="wrapper">
         <!-- header -->
         <?php include 'views/layouts/header_main.php'; ?>
+<<<<<<< HEAD
 
 
         <div class="welcome-message">
@@ -30,6 +36,8 @@
             <?php endif; ?>
         </div>
 
+=======
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
         <div class="text">
             <h2>Welcome to the last recipe website you will ever need!</h2>
             <p>
@@ -39,7 +47,10 @@
                 I'm sharing some of my favorite recipes so that you too can begin to cook on your own! Hope you enjoy!!
             </p>
         </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
         <div>
             <img class="homepic" src="images/kitchen.jpeg"><br><br><br><br>
         </div>

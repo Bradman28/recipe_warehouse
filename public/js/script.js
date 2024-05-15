@@ -7,7 +7,11 @@ let registration_form_container = document.getElementById('registration_form_con
 // form popup on login button
 login_button.addEventListener("click", function() {
     console.log("login button clicked");
+<<<<<<< HEAD
     // Hide the registration form while login form is up
+=======
+    // Hide the registration form if it's currently shown
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
     registration_form_container.style.display = 'none';
     // Toggle the 'show' class to display/hide the login form container
     login_form_container.classList.toggle("show");
@@ -38,6 +42,7 @@ close_reg_form.addEventListener("click", function() {
     registration_form_container.style.display = 'none';
 });
 
+<<<<<<< HEAD
 //login form validation for front end
 const login_email = document.getElementById('login_email');
 const login_password = document.getElementById('login_password');
@@ -86,11 +91,37 @@ reg_form.addEventListener('submit', (e) => {
     }
 
     if (reg_password.value !== reg_confirm_password.value) {
+=======
+const email = document.getElementById('reg_email');
+const password = document.getElementById('reg_password');
+const confirm_password = document.getElementById('reg_confirm_password');
+const form = document.getElementById('reg_form');
+const error_message = document.getElementById('reg_error-message');
+
+
+form.addEventListener('submit', (e) => {
+    console.log('Email value:', email.value);
+    let messages = []
+    if (email.value === '' || email.value == null) {
+        messages.push('Email is required');
+    }
+
+    if (password.value === '' || password.value == null) {
+        messages.push('Password is required');
+    }
+
+    if (confirm_password.value === '' || confirm_password.value == null) {
+        messages.push('Confirm password is required');
+    }
+
+    if (password.value !== confirm_password.value) {
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
         messages.push('Passwords do not match');
     }
 
     if (messages.length > 0) {
         e.preventDefault();
+<<<<<<< HEAD
         reg_error_message.innerText = messages.join(', ')
     }
 });
@@ -102,6 +133,11 @@ close_login_form.addEventListener("click", function() {
 close_reg_form.addEventListener("click", function() {
     registration_form_container.style.display = 'none';
 });
+=======
+        error_message.innerText = messages.join(', ')
+    }
+})
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
 
 
 

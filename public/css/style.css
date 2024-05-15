@@ -81,10 +81,17 @@ a {
     outline: none;
 }
 
+<<<<<<< HEAD
 .btn-login-pop a:hover {
     background: rgb(111, 141, 167);
     color: white;
 }
+=======
+/*.btn-login-pop a:hover {*/
+/*    background: rgb(111, 141, 167);*/
+/*    color: white;*/
+/*}*/
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
 
 h3 {
     text-align: center;

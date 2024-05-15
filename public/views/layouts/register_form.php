@@ -13,20 +13,35 @@ require_once "../controllers/register_handler.php";
             <span class="icon"><ion-icon name="mail"></ion-icon></span>
             <input type="text" id="reg_email" name="reg_email" placeholder="Email">
             <label for="reg_email"></label>
+<<<<<<< HEAD
+=======
+<!--            <div class="error-message" id="email_error"></div>-->
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
         </div>
 
         <div class="input-wrapper">
             <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
             <input type="password" id="reg_password" name="reg_password" placeholder="Password">
             <label for="reg_password"></label>
+<<<<<<< HEAD
+=======
+<!--            <div class="error-message" id="password_error"></div>-->
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
         </div>
 
         <div class="input-wrapper">
             <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
             <input type="password" id="reg_confirm_password" name="reg_confirm_password" placeholder=" Confirm Password">
             <label for="reg_confirm-password"></label>
+<<<<<<< HEAD
         </div>
         <button type="submit">Register</button>
         <div id="reg_error_message"></div>
+=======
+<!--            <div class="error-message" id="confirm_password_error"></div>-->
+        </div>
+        <button type="submit">Register</button>
+        <div id="reg_error-message"></div>
+>>>>>>> 74038efdde88b871abbc385c26cbf9803103032a
     </form>
 </div>
