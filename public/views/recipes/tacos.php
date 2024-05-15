@@ -46,7 +46,7 @@
         <li>Combine all spices</li>
         <li>Put enough oil in pan to lightly coat bottom. If using ground beef or pork, no oil is needed.</li>
         <li>Lightly season meat with salt. (optional if using ground beef or pork)</li>
-        <li>Sautee until meat is cooked through, drain grease or water from pan.</li>
+        <li>Sauté until meat is cooked through, drain grease or water from pan.</li>
         <li>Add in spices and water. Mix until all the meat is coated.</li>
         <li>Simmer until water is almost fully reduced.</li>
         <li>Serve hot on tortillas, tostados, enchiladas, or nachos.</li>
@@ -56,5 +56,7 @@
         <!-- footer -->
         <?php include '../layouts/footer.php'; ?>
     </div>
+    <!-- script tags -->
+    <?php include '../layouts/script_tags_bottom_page.php'; ?>
 </body>
 </html>

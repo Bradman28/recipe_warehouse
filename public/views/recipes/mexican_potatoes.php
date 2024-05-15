@@ -55,5 +55,7 @@
         <!-- footer -->
         <?php include '../layouts/footer.php'; ?>
     </div>
+    <!-- script tags -->
+    <?php include '../layouts/script_tags_bottom_page.php'; ?>
 </body>
 </html>

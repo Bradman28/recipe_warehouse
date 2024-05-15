@@ -20,6 +20,14 @@
         <hr>
         <div class="text">
             <h2>Bolognese</h2>
+            <div class="rating-container">
+                <p>Rate this recipe!</p>
+                <span class="star" onclick="rateRecipe(1)">&#9734;</span>
+                <span class="star" onclick="rateRecipe(2)">&#9734;</span>
+                <span class="star" onclick="rateRecipe(3)">&#9734;</span>
+                <span class="star" onclick="rateRecipe(4)">&#9734;</span>
+                <span class="star" onclick="rateRecipe(5)">&#9734;</span>
+            </div>
             <p>
                 Bolognese is a rustic and versatile dish that <strong>everyone</strong> can enjoy. There are relatively few ingredients, so let's dive right in!
             </p>
@@ -66,5 +74,7 @@
         <!-- footer -->
         <?php include '../layouts/footer.php'; ?>
     </div>
+    <!-- script tags -->
+    <?php include '../layouts/script_tags_bottom_page.php'; ?>
 </body>
 </html>
